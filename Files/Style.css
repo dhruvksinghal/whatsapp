@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Roboto';
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #128c7e;
+    color:white;
+    padding:15px;
+}
+#logo img{
+    width:40px;
+    height:40px;
+    margin-right:5px;
+    
+}
+#logo{
+    align-items:center;
+    display:flex;
+    font-weight: bold;
+    font-size: larger;
+    margin-right:50px;
+    
+}
+#links ul li{
+    display:inline-block;
+    list-style: none;
+    font-size: smaller;
+    margin:15px;
+    color:white;
+}
+#links ul li:hover{
+    cursor:pointer;
+}
+
+#logo:hover{
+    cursor:pointer;
+}
+#right-content img{
+    width:225px;
+    height:425px;
+}
+section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:20px;
+}
+#left-content{
+    margin-top:40px;
+    padding-left:30px;
+    padding-bottom:30px;
+    padding-right:30px;
+}
+#right-content{
+    margin-top:40px;
+    padding-left:30px;
+    padding-bottom:30px;
+    padding-right:30px;
+}
+#left-content h1,h4{
+    font-weight:lighter;
+    margin-bottom:35px;
+}
+#left-content p{
+    font-weight:light;
+    margin-bottom:35px;
+    color:rgb(71, 71, 71);
+    font-size:small;
+}
+#left-content ul li p,li{
+    display: inline-block;
+    list-style:none;
+    color:#1CB39B;
+    margin-bottom:10px;
+}
+#left-content ul li:hover{
+    cursor:pointer;
+    
+}
+#left-content ul li p:hover{
+    text-decoration: underline;
+}
+#Drawer{
+    width:20px;
+    height:15px;
+    position: absolute;
+    right:40px;
+    top:20px;
+    display:none;
+}
+
+#Drawer-Logo{
+    width:80px;
+    height:80px;
+    margin:80px;
+    display: none;
+    padding:40px;
+}
+button{
+    background-color:#075e54;
+    color:white;
+    border:none;
+    padding:18px;
+    width:175px;
+    border-radius:30px;
+    display:none;
+}
+button:hover{
+    cursor:pointer;
+}

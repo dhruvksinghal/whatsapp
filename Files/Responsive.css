@@ -1,0 +1,46 @@
+@media (max-width:850px){
+    nav{
+        display:none;
+    }
+    #left-content p,li{
+        display: none;
+        text-align: center;
+    }
+    section{
+        display: block;
+        text-align:center;
+        color:white;
+    }
+    body{
+        background-color:#128c7e;
+    }
+    #Drawer, #Drawer-Logo{
+        display:block;
+    }
+    #Drawer-Logo{
+        margin:auto;
+    }
+    #Drawer-Logo,#Drawer:hover{
+        cursor:pointer;
+    }
+    button{
+        display:block;
+    }
+    button{
+        margin:auto;
+        margin-top:50px;
+    }
+    #right-content img{
+        display: block;
+        margin:auto;
+        padding:0px;
+    }
+    #right-content{
+        margin:0px;
+        padding:0px;
+    }
+    #logo img{
+        padding:0px;
+        margin:0px;
+    }
+}
